@@ -1,0 +1,6 @@
+import { header } from "express-validator";
+
+
+export const tokenValidation= [
+    header("token").notEmpty().withMessage("el Token es requerido")
+]
