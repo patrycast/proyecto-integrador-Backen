@@ -4,6 +4,7 @@ import cors from "cors";
 import auth  from "./routes/auth.js";
 import connect from "./middlewares/connect.js";
 import orders from "./routes/orders.js";
+import contact from "./routes/contact.js";
 
 const app= express();
 
@@ -17,8 +18,8 @@ app.use(cors());
 app.use(connect);
 
 app.use("/auth", auth);
-
 app.use("/orders", orders);
+app.use("/contact", contact);
 
 
 
