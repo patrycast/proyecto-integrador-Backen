@@ -1,6 +1,6 @@
 # Proyecto Integrador — Backend
 
-API REST desarrollada con **Node.js + Express** para un e-commerce. Permite el registro y autenticación de usuarios con confirmación por email, gestión de órdenes de compra y recepción de mensajes de contacto.
+API REST desarrollada con **Node.js + Express** para un e-commerce. Permite el registro y autenticación de usuarios, gestión de órdenes de compra y recepción de mensajes de contacto.
 
 ---
 
@@ -73,8 +73,6 @@ Los endpoints protegidos requieren el siguiente header:
 Authorization: Bearer <access_token>
 ```
 
----
-
 ### 🔐 Autenticación — `/auth`
 
 #### `POST /auth/register`
@@ -137,7 +135,7 @@ Podés probar todos los endpoints directamente desde el frontend deployado:
 
 👉 **https://proyecto-integrador-react-zeta.vercel.app**
 
-O con herramientas como **Postman**, **Insomnia** o **Thunder Client** usando la base URL:
+O con herramientas como **Postman** o **Thunder Client** usando la base URL:
 
 ```
 https://proyecto-integrador-backen.onrender.com
